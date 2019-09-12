@@ -3,9 +3,11 @@
 Contexto físico: la "plantilla" geográfica
 ==========================================
 
-La idea es que uses las referencias para "intentar" aprender sobre qué condicionamientos físicos actúan en la distribución de especies.
+La idea es que uses las referencias para "intentar" aprender sobre qué condicionamientos físicos actúan en la distribución de especies. **Escribe tus respuestas a los mandatos en el archivo `README.Rmd`**
 
 Tus referencias serán los capítulos 3 a 5 de T. M. Smith & Smith (2007) y el capítulo 3 de Lomolino, Riddle, Brown, & Brown (2006). Alternativamente, puedes consultar la versión resumida de este tema que se encuentra en [este vídeo de YouTube](https://www.youtube.com/watch?v=R8m_EmZsxJU), así como en [esta presentación de diapositivas](https://drive.google.com/file/d/1-3os3Y9b6V2IkPhMUTYtbvIQag7dfeIL/view?usp=sharing).
+
+> En esta asignación, cuando leas "...en \#\#\# caracteres o menos..." al hacer tu asignación en RStudio, remítete a la barra inferior de este documento. Allí verás este cuadro ![](filas_columnas.png). Si no usas `<enter>` para separar líneas, los dígitos después de ":" te indican el número de caracteres escritos. en la línea en cuestión.
 
 Preguntas/mandatos. Responde según las referencias señaladas arriba. En caso de que prefieras usar otras referencias, indícalas.
 --------------------------------------------------------------------------------------------------------------------------------
@@ -51,7 +53,13 @@ Preguntas/mandatos. Responde según las referencias señaladas arriba. En caso d
 
     Tu respuesta, aquí: ...
 
--   Explica el mecanismo, con tus palabras y sin pasar de la columna 200, ¿Por qué la radiación solar interceptada varía según las estaciones?
+-   Explica, con tus palabras y en 200 caracteres o menos, el mecanismo por el cual varía laradiación solar que llega a la superficie de la Tierra en las diferentes latitudes.
+
+    Tu respuesta, aquí: ...
+
+-   Explica, con tus palabras y en 200 caracteres o menos, ¿Por qué la radiación solar interceptada varía según las estaciones?
+
+    Tu respuesta, aquí: ...
 
 Referencias
 ===========

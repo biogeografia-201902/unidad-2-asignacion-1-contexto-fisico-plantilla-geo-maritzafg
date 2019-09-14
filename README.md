@@ -7,7 +7,7 @@ La idea es que uses las referencias para "intentar" aprender sobre qué condicio
 
 Tus referencias serán los capítulos 3 a 5 de T. M. Smith & Smith (2007) y el capítulo 3 de Lomolino, Riddle, Brown, & Brown (2006). Alternativamente, puedes consultar la versión resumida de este tema que se encuentra en [este vídeo de YouTube](https://www.youtube.com/watch?v=R8m_EmZsxJU), así como en [esta presentación de diapositivas](https://drive.google.com/file/d/1-3os3Y9b6V2IkPhMUTYtbvIQag7dfeIL/view?usp=sharing).
 
-> En esta asignación, cuando leas "...en \#\#\# caracteres o menos..." al hacer tu asignación en RStudio, remítete a la barra inferior de este documento. Allí verás este cuadro ![](filas_columnas.png). Si no usas `<enter>` para separar líneas, los dígitos después de ":" te indican el número de caracteres escritos en la línea en cuestión.
+> En esta asignación, verás que algunas preguntas requieren que escribas tu respuesta usando un número específico de caracteres. Puedes consultar el número de caracteres de una línea en RStudio, usando la barra inferior de este documento. Allí verás este cuadro ![](filas_columnas.png); el ejemplo indica que en la línea 15 hay 175 caracteres (no uses `<enter>` para separar líneas).
 
 Preguntas/mandatos. Responde según las referencias señaladas arriba. En caso de que prefieras usar otras referencias, indícalas.
 --------------------------------------------------------------------------------------------------------------------------------
@@ -53,7 +53,7 @@ Preguntas/mandatos. Responde según las referencias señaladas arriba. En caso d
 
     Tu respuesta, aquí: ...
 
--   Explica, con tus palabras y en 200 caracteres o menos, el mecanismo por el cual varía laradiación solar que llega a la superficie de la Tierra en las diferentes latitudes.
+-   Explica, con tus palabras, en 200 caracteres o menos, el mecanismo por el cual varía la radiación solar que llega a la superficie de la Tierra en las diferentes latitudes.
 
     Tu respuesta, aquí: ...
 
@@ -61,7 +61,26 @@ Preguntas/mandatos. Responde según las referencias señaladas arriba. En caso d
 
     Tu respuesta, aquí: ...
 
--   
+-   Genera un gráfico de temperaturas en un gradiente longitudinal, desde el Polo Sur al Norte, a lo largo del meridiano que se te asigna aleatoriamente. Interpreta el resultado:
+
+    ``` r
+    source('meridiano_aleatorio.R')
+    ```
+
+        ##                  meridiano
+        ## AbigailCP             -125
+        ## BidelkisCastillo      -145
+        ## dahianagb07             21
+        ## emdilone              -156
+        ## enrique193            -134
+        ## jimenezsosa            -19
+        ## Jorge-Mutonen          -90
+        ## JuanJoseGH06           -76
+        ## Mangoland               14
+        ## maritzafg               82
+        ## yanderlin               68
+
+    Tu respuesta, aquí: ...
 
 Referencias
 ===========

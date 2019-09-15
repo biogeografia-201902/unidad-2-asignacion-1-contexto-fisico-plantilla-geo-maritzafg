@@ -61,7 +61,7 @@ Preguntas/mandatos. Responde según las referencias señaladas arriba. En caso d
 
     Tu respuesta, aquí: ...
 
--   Genera un gráfico de temperatura promedio anual en un gradiente latitudinal, desde el Polo Sur al Norte, a lo largo del meridiano que se te asigna aleatoriamente y utilizando la serie de datos [WorldClim, versión 2]((http://worldclim.org/version2)) (Fick & Hijmans, 2017). **Interpreta el resultado** (cómo y por qué cambia la temperatura respecto de la latitud, por qué hay cambios bruscos en el gradiente):
+-   Genera un gráfico de temperatura promedio anual continental en un gradiente latitudinal, desde el Polo Sur al Norte, a lo largo del meridiano que se te asigna aleatoriamente y utilizando la serie de datos [WorldClim, versión 2]((http://worldclim.org/version2)) (Fick & Hijmans, 2017). En el bloque de código a continuación te explico cómo. Lo importante es que **interpretes el resultado** (cómo y por qué cambia la temperatura respecto de la latitud, por qué hay cambios bruscos en el gradiente, por qué hay vacíos de información):
 
         ##                  meridiano
         ## AbigailCP             -125
@@ -77,16 +77,44 @@ Preguntas/mandatos. Responde según las referencias señaladas arriba. En caso d
         ## yanderlin               68
 
     ``` r
-    #En el siguiente ejemplo, se genera el gradiente latitudinal del
-    #meridiano 71 grados oeste (valores negativos al oeste del meridiano
-    #central; positivos al este. Cambia el valor usando tu número
-    #aleatorio, genera tu propio gráfico e interprétalo.
+    #En el siguiente ejemplo, se genera el gradiente térmico latitudinal 
+    #continental del meridiano -71 grados (longitud negativa al oeste del
+    #meridiano central; si fuese, positiva estaría al este). En la siguiente
+    #función, cambia el valor por tu número aleatorio,
+    #genera tu propio gráfico e interprétalo.
     NSt(-71)
     ```
 
-    ![](img/grad_lat-1.png)
+    ![](img/grad_lat_temp-1.png)
 
     Tu respuesta, aquí: ...
+
+-   ¿Por qué disminuye la temperatura del aire con la altitud?
+
+    Tu respuesta, aquí: ...
+
+-   ¿Qué produce el efecto sobre la circulación de las masas de aire?
+
+    Tu respuesta, aquí: ...
+
+-   Describe las "células", frentes y depresiones de las masas de aire (circulación general atmosférica), qué efectos tienen sobre las corrientes, y explica por qué los alisios soplan desde el Este.
+
+    Tu respuesta, aquí: ...
+
+-   ¿Qué es la humedad relativa? Opina también cómo ésta podría afectar a la distribución de especies.
+
+    Tu respuesta, aquí: ...
+
+-   ``` r
+    #En el siguiente ejemplo, se genera el gradiente pluviométrico latitudinal 
+    #continental del meridiano -71 grados (longitud negativa, al oeste del
+    #meridiano central; si fuese, positiva estaría al este). En la siguiente
+    #función, cambia el valor por tu número aleatorio,
+    #genera tu propio gráfico e interprétalo.
+    NSp(-71)
+    ```
+
+    ![](img/grad_lat_prec-1.png)
 
 Referencias
 ===========

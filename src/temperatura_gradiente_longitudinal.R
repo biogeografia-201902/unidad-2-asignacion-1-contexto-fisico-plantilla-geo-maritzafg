@@ -11,7 +11,7 @@ NSt <- function(meridiano, nombrer = 'src/mean.tif', ymn = -90, ymx = 90,
   df <- data.frame(extract(r, sp, sp = T))
   colnames(df) <- c(v, 'X', 'Paralelo')
   par(mfrow=c(1,2))
-  plot(df[,c('Paralelo', v)], xlim = c(-100,100))
+  plot(df[,c('Paralelo', v)], xlim = c(-100,100), cex = 0.5)
   plot(r, col = rev(heat.colors(10)))
   plot(
     sp[floor(seq(1, length(sp), length.out = length(sp)/75))],

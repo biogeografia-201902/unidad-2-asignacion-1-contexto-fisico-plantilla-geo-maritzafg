@@ -3,11 +3,11 @@
 Contexto físico: la "plantilla" geográfica
 ==========================================
 
-La idea es que uses las referencias para "intentar" aprender sobre qué condicionamientos físicos actúan en la distribución de especies. **Escribe tus respuestas a los mandatos en el archivo `README.Rmd`**
+La idea es que uses las referencias para "intentar" aprender sobre qué condicionamientos físicos actúan en la distribución de especies. **Escribe tus respuestas a los mandatos en el archivo `README.Rmd`**. Teje al finalizar, pero no olvides guardar en la medida que escribes.
 
 Tus referencias serán los capítulos 3 a 5 de T. M. Smith & Smith (2007) y el capítulo 3 de Lomolino, Riddle, Brown, & Brown (2006). Alternativamente, puedes consultar la versión resumida de este tema que se encuentra en [este vídeo de YouTube](https://www.youtube.com/watch?v=R8m_EmZsxJU), así como en [esta presentación de diapositivas](https://drive.google.com/file/d/1-3os3Y9b6V2IkPhMUTYtbvIQag7dfeIL/view?usp=sharing).
 
-> En esta asignación, verás que algunas preguntas requieren que escribas tu respuesta usando un número específico de caracteres. Puedes consultar el número de caracteres de una línea en RStudio, usando la barra inferior de este documento. Allí verás este cuadro ![](filas_columnas.png); el ejemplo indica que en la línea 15 hay 175 caracteres (no uses `<enter>` para separar líneas).
+> En esta asignación, verás que algunas preguntas requieren que escribas tu respuesta usando un número específico de caracteres. Puedes consultar el número de caracteres de una línea en RStudio, usando la barra inferior de este documento. Allí verás este cuadro ![](img/filas_columnas.png); el ejemplo indica que en la línea 15 hay 175 caracteres (no uses `<enter>` para separar líneas).
 
 Preguntas/mandatos. Responde según las referencias señaladas arriba. En caso de que prefieras usar otras referencias, indícalas.
 --------------------------------------------------------------------------------------------------------------------------------
@@ -61,11 +61,7 @@ Preguntas/mandatos. Responde según las referencias señaladas arriba. En caso d
 
     Tu respuesta, aquí: ...
 
--   Genera un gráfico de temperaturas en un gradiente longitudinal, desde el Polo Sur al Norte, a lo largo del meridiano que se te asigna aleatoriamente. Interpreta el resultado:
-
-    ``` r
-    source('meridiano_aleatorio.R')
-    ```
+-   Genera un gráfico de temperatura promedio anual en un gradiente latitudinal, desde el Polo Sur al Norte, a lo largo del meridiano que se te asigna aleatoriamente y utilizando la serie de datos [WorldClim, versión 2]((http://worldclim.org/version2)) (Fick & Hijmans, 2017). **Interpreta el resultado** (cómo y por qué cambia la temperatura respecto de la latitud, por qué hay cambios bruscos en el gradiente):
 
         ##                  meridiano
         ## AbigailCP             -125
@@ -80,10 +76,21 @@ Preguntas/mandatos. Responde según las referencias señaladas arriba. En caso d
         ## maritzafg               82
         ## yanderlin               68
 
+    ``` r
+    #En el siguiente ejemplo, se genera el gradiente latitudinal del
+    #meridiano 71 grados oeste (valores negativos al oeste del meridiano
+    #central; positivos al este. Cambia el valor y genera tu gráfico.
+    NSt(-71)
+    ```
+
+    ![](img/grad_lat-1.png)
+
     Tu respuesta, aquí: ...
 
 Referencias
 ===========
+
+Fick, S. E., & Hijmans, R. J. (2017). WorldClim 2: New 1-km spatial resolution climate surfaces for global land areas. *International Journal of Climatology*, *37*(12), 4302–4315.
 
 Lomolino, M. V., Riddle, B. R., Brown, J. H., & Brown, J. H. (2006). *Biogeography*. Sinauer Associates Sunderland, MA.
 

@@ -61,7 +61,7 @@ Preguntas/mandatos. Responde según las referencias señaladas arriba. En caso d
 
     Tu respuesta, aquí: ...
 
--   Genera un gráfico de temperatura promedio anual continental en un gradiente latitudinal, desde el Polo Sur al Norte, a lo largo del meridiano que se te asigna aleatoriamente y utilizando la serie de datos [WorldClim, versión 2]((http://worldclim.org/version2)) (Fick & Hijmans, 2017). En el bloque de código a continuación te explico cómo. Lo importante es que **interpretes el resultado** (cómo y por qué cambia la temperatura respecto de la latitud, por qué hay cambios bruscos en el gradiente, por qué hay vacíos de información):
+-   Genera un gráfico de temperatura promedio anual continental en un gradiente latitudinal, desde el Polo Sur al Norte, a lo largo del meridiano que se te asigna aleatoriamente a continuación y utilizando la serie de datos [WorldClim, versión 2]((http://worldclim.org/version2)) (Fick & Hijmans, 2017).
 
         ##                  meridiano
         ## AbigailCP             -125
@@ -76,16 +76,15 @@ Preguntas/mandatos. Responde según las referencias señaladas arriba. En caso d
         ## maritzafg               82
         ## yanderlin               68
 
+    Fíjate en el siguiente ejemplo, donde se genera el gradiente térmico latitudinal continental del meridiano -71 grados (longitud negativa al oeste del meridiano central; si fuese, positiva estaría al este).
+
     ``` r
-    #En el siguiente ejemplo, se genera el gradiente térmico latitudinal 
-    #continental del meridiano -71 grados (longitud negativa al oeste del
-    #meridiano central; si fuese, positiva estaría al este). En la siguiente
-    #función, cambia el valor por tu número aleatorio,
-    #genera tu propio gráfico e interprétalo.
     NSt(-71)
     ```
 
     ![](img/grad_lat_temp-1.png)
+
+    Ahora cambia el meridiano -71 por el tuyo e **interpreta el resultado** (cómo y por qué cambia la temperatura respecto de la latitud, por qué hay cambios bruscos en el gradiente, por qué hay vacíos de información):
 
     Tu respuesta, aquí: ...
 
@@ -93,7 +92,7 @@ Preguntas/mandatos. Responde según las referencias señaladas arriba. En caso d
 
     Tu respuesta, aquí: ...
 
--   ¿Qué produce el efecto sobre la circulación de las masas de aire?
+-   ¿Qué produce el efecto Coriolis sobre la circulación de las masas de aire?
 
     Tu respuesta, aquí: ...
 
@@ -105,16 +104,62 @@ Preguntas/mandatos. Responde según las referencias señaladas arriba. En caso d
 
     Tu respuesta, aquí: ...
 
--   ``` r
-    #En el siguiente ejemplo, se genera el gradiente pluviométrico latitudinal 
-    #continental del meridiano -71 grados (longitud negativa, al oeste del
-    #meridiano central; si fuese, positiva estaría al este). En la siguiente
-    #función, cambia el valor por tu número aleatorio,
-    #genera tu propio gráfico e interprétalo.
+-   Explica por qué se registran precipitaciones tan elevadas en la ZCIT.
+
+    Tu respuesta, aquí: ...
+
+-   ¿Qué ocurre en torno a la latitud 30° (Norte y Sur) que provoca una disminución relativa de las precipitaciones?
+
+    Tu respuesta, aquí: ...
+
+-   Genera un gráfico de precipitación anual continental en un gradiente latitudinal, desde el Polo Sur al Norte, a lo largo del meridiano que se te asignó arriba aleatoriamente y utilizando la serie de datos [WorldClim, versión 2]((http://worldclim.org/version2)) (Fick & Hijmans, 2017).
+
+    Fíjate en el siguiente ejemplo, donde se genera el gradiente pluviométrico latitudinal continental del meridiano -71 grados (longitud negativa, al oeste del meridiano central; si fuese, positiva estaría al este).
+
+    ``` r
     NSp(-71)
     ```
 
     ![](img/grad_lat_prec-1.png)
+
+    Ahora cambia el meridiano -71 por el tuyo e **interpreta el resultado** (cómo y por qué cambia la precipitación respecto de la latitud, por qué hay cambios bruscos en el gradiente, por qué hay vacíos de información):
+
+    Tu respuesta, aquí: ...
+
+-   Genera un gráfico de precipitación anual de RD en un gradiente Norte-Sur, a lo largo de un transecto elegido para ti y utilizando la serie de datos [WorldClim, versión 2]((http://worldclim.org/version2)) (Fick & Hijmans, 2017).
+
+        ##                  transecto
+        ## AbigailCP               31
+        ## BidelkisCastillo        20
+        ## dahianagb07            112
+        ## emdilone                14
+        ## enrique193              27
+        ## jimenezsosa             90
+        ## Jorge-Mutonen           51
+        ## JuanJoseGH06            59
+        ## Mangoland              108
+        ## maritzafg              146
+        ## yanderlin              138
+
+    Fíjate en el siguiente ejemplo, donde se genera el gradiente térmico latitudinal continental para el transecto `1`.
+
+    ``` r
+    RDp(1)
+    ```
+
+        ## Reading layer `transectos' from data source `/home/jr/Documentos/clases_UASD/201902/biogeografia/asignaciones/unidad-2-asignacion-1-contexto-fisico-plantilla-geo/src/transectos.gpkg' using driver `GPKG'
+        ## Simple feature collection with 200 features and 0 fields
+        ## geometry type:  LINESTRING
+        ## dimension:      XY
+        ## bbox:           xmin: -71.84431 ymin: 17.60545 xmax: -69.28284 ymax: 19.93093
+        ## epsg (SRID):    4326
+        ## proj4string:    +proj=longlat +datum=WGS84 +no_defs
+
+    ![](img/trans_rd_prec-1.png)![](img/trans_rd_prec-2.png)
+
+    Ahora cambia el transecto `1` por el tuyo e **interpreta el resultado** (cómo y por qué cambia la preciptiación respecto del relieve dominicano, por qué hay lugares con menor precipitación que otros, qué factores influyen):
+
+    Tu respuesta, aquí: ...
 
 Referencias
 ===========

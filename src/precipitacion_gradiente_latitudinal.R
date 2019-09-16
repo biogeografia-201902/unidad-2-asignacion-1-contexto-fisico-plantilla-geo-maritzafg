@@ -3,6 +3,7 @@ NSp <- function(meridiano, nombrer = 'src/precanual.tif', ymn = -90, ymx = 90,
   require(raster)
   require(sp)
   require(scales)
+  require(geosphere)
   r <- raster(nombrer)
   n <- nrow(r) + 1
   coordx <- rep(meridiano, n)

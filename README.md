@@ -126,7 +126,7 @@ Preguntas/mandatos. Responde según las referencias señaladas arriba. En caso d
 
     Tu respuesta, aquí: ...
 
--   Genera un gráfico de precipitación anual de RD en un gradiente Norte-Sur, a lo largo de un transecto elegido para ti y utilizando la serie de datos [WorldClim, versión 2]((http://worldclim.org/version2)) (Fick & Hijmans, 2017).
+-   Genera un gráfico de precipitación anual de RD a lo largo de un transecto Norte-Sur elegido para ti, utilizando la serie de datos [WorldClim, versión 2]((http://worldclim.org/version2)) (Fick & Hijmans, 2017).
 
         ##                  transecto
         ## AbigailCP               31
@@ -141,19 +141,11 @@ Preguntas/mandatos. Responde según las referencias señaladas arriba. En caso d
         ## maritzafg              146
         ## yanderlin              138
 
-    Fíjate en el siguiente ejemplo, donde se genera el gradiente térmico latitudinal continental para el transecto `1`.
+    Fíjate en el siguiente ejemplo, donde se genera un transecto de precipitación Norte-Sur para el transecto `1`.
 
     ``` r
     RDp(1)
     ```
-
-        ## Reading layer `transectos' from data source `/home/jr/Documentos/clases_UASD/201902/biogeografia/asignaciones/unidad-2-asignacion-1-contexto-fisico-plantilla-geo/src/transectos.gpkg' using driver `GPKG'
-        ## Simple feature collection with 200 features and 0 fields
-        ## geometry type:  LINESTRING
-        ## dimension:      XY
-        ## bbox:           xmin: -71.84431 ymin: 17.60545 xmax: -69.28284 ymax: 19.93093
-        ## epsg (SRID):    4326
-        ## proj4string:    +proj=longlat +datum=WGS84 +no_defs
 
     ![](img/trans_rd_prec-1.png)![](img/trans_rd_prec-2.png)
 

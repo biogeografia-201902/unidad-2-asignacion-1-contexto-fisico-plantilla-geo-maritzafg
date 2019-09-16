@@ -126,6 +126,10 @@ Preguntas/mandatos. Responde según las referencias señaladas arriba. En caso d
 
     Tu respuesta, aquí: ...
 
+-   Con tus palabras, y en menos de 150 caracteres, ¿qué es sombre de lluvia?
+
+    Tu respuesta, aquí: ...
+
 -   Genera un gráfico de precipitación anual de RD a lo largo de un transecto Norte-Sur elegido para ti, utilizando la serie de datos [WorldClim, versión 2]((http://worldclim.org/version2)) (Fick & Hijmans, 2017).
 
         ##                  transecto
@@ -150,6 +154,78 @@ Preguntas/mandatos. Responde según las referencias señaladas arriba. En caso d
     ![](img/trans_rd_prec-1.png)![](img/trans_rd_prec-2.png)
 
     Ahora cambia el transecto `1` por el tuyo e **interpreta el resultado** (cómo y por qué cambia la preciptiación respecto del relieve dominicano, por qué hay lugares con menor precipitación que otros, qué factores influyen):
+
+    Tu respuesta, aquí: ...
+
+-   Describe dos variaciones irregulares del clima a escala regional
+
+    Tu respuesta, aquí: ...
+
+-   Describe dos variaciones irregulares del clima a escala regional
+
+    Tu respuesta, aquí: ...
+
+-   Pon dos ejemplos de organismos que conozcas que habiten en condiciones locales y describe en qué consisten dichas condiciones.
+
+    Tu respuesta, aquí: ...
+
+-   Describe las características típicas del ambiente urbano.
+
+    Tu respuesta, aquí: ...
+
+-   En menos de 300 caracteres, describe los principales "trayectos" más importantes del movimiento del agua en el "ciclo hidrológico".
+
+    Tu respuesta, aquí: ...
+
+-   ¿Por qué son importantes la tensión superficial y la viscosidad del agua para determinados organismos?
+
+    Tu respuesta, aquí: ...
+
+-   ¿Qué intensidad relativa aproximada del rojo queda a 20 metros de profundidad en agua pura? ¿Y de azul a 100 metros?
+
+    Tu respuesta, aquí: ...
+
+-   P
+
+    Tu respuesta, aquí: ...
+
+-   P
+
+    Tu respuesta, aquí: ...
+
+-   P
+
+    Tu respuesta, aquí: ...
+
+-   P
+
+    Tu respuesta, aquí: ...
+
+-   P
+
+    Tu respuesta, aquí: ...
+
+-   P
+
+    Tu respuesta, aquí: ...
+
+-   P
+
+    Tu respuesta, aquí: ...
+
+-   P
+
+    Tu respuesta, aquí: ...
+
+-   P
+
+    Tu respuesta, aquí: ...
+
+-   P
+
+    Tu respuesta, aquí: ...
+
+-   P
 
     Tu respuesta, aquí: ...
 

@@ -16,14 +16,19 @@ RDp <- function(transectorandom,
     coordinates(transectosel)[[1]][[1]][2,]
   )
   dist <- seq(0, disttotal, along.with = prec)/1000
-  # obs <- 1:length(prec)
+  rmin <- min(r[], na.rm = T)
+  rmax <- max(r[], na.rm = T)
   df <- data.frame(x = dist, prec = prec)
   p <- ggplot(df, aes(x = x, y = prec, color = prec)) +
-    geom_smooth(method = lm, formula = y ~ splines::bs(x, 15), se = F, size = 2) +
+    # geom_smooth(aes(color=..y..), method = lm, formula = y ~ splines::bs(x, 15), se = F, size = 2) +
+    geom_path() +
+    geom_point() +
+    ylim(rmin, rmax) +
+    scale_color_gradientn(colors=rev(topo.colors(255)), limits = c(rmin, rmax)) +
     annotate('text',label = 'Sur',
-             hjust = 0, vjust = 0, x = min(dist), y = min(prec, na.rm = T)-100) +
+             hjust = 0, vjust = 0, x = min(dist), y = rmin) +
     annotate('text',label = 'Norte',
-             hjust = 1, vjust = 0, x = max(dist), y = min(prec, na.rm = T)-100) +
+             hjust = 1, vjust = 0, x = max(dist), y = rmin) +
     ylab('Precipitación anual (en mm)') +
     xlab('Distancia (en km)')
   plot(r, col = rev(topo.colors(255)));plot(transectosel, lwd = 3, add = T)

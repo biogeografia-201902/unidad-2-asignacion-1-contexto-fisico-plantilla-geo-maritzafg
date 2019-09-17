@@ -3,7 +3,7 @@
 Contexto físico: la "plantilla" geográfica
 ==========================================
 
-La idea es que uses las referencias para "intentar" aprender sobre los condicionamientos físicos que intervienen en la distribución de especies. **Escribe tus respuestas a los mandatos en el archivo `README.Rmd`**. Ejecuta tu código en la consola antes de tejer. Teje al finalizar, pero no olvides guardar en la medida que escribes.
+La idea es que uses las referencias para "intentar" aprender sobre los condicionamientos físicos que intervienen en la distribución de especies. **Escribe tus respuestas a los mandatos en el archivo `README.Rmd`**. Ejecuta tu código en la consola antes de tejer. Teje al finalizar o cuando se te indique; lo más importante: **guardar en la medida que escribes**, y haz `Commit`&gt;`Push` periódicamente; en principio, tus cambios están a salvo en el GitHub.
 
 Tus referencias serán los capítulos 3 a 5 de T. M. Smith & Smith (2007) y el capítulo 3 de Lomolino, Riddle, Brown, & Brown (2006). Alternativamente, puedes consultar la versión resumida de este tema que se encuentra en [este vídeo de YouTube](https://www.youtube.com/watch?v=R8m_EmZsxJU), así como en [esta presentación de diapositivas](https://drive.google.com/file/d/1-3os3Y9b6V2IkPhMUTYtbvIQag7dfeIL/view?usp=sharing).
 
@@ -11,6 +11,8 @@ Tus referencias serán los capítulos 3 a 5 de T. M. Smith & Smith (2007) y el c
 
 Preguntas/mandatos. Responde según las referencias señaladas arriba. En caso de que prefieras usar otras referencias, indícalas.
 --------------------------------------------------------------------------------------------------------------------------------
+
+### Clima
 
 -   ¿Cuáles son las principales variables climáticas que determinan la distribución de la vegetación terrestre?
 
@@ -61,7 +63,7 @@ Preguntas/mandatos. Responde según las referencias señaladas arriba. En caso d
 
     Tu respuesta, aquí: ...
 
--   Genera un gráfico de temperatura promedio anual continental en un gradiente latitudinal, desde el Polo Sur al Norte, a lo largo del meridiano que se te asigna aleatoriamente a continuación y utilizando la serie de datos [WorldClim, versión 2]((http://worldclim.org/version2)) (Fick & Hijmans, 2017).
+-   Genera un gráfico de temperatura promedio anual continental en un gradiente latitudinal, desde el Polo Sur al Norte a lo largo del meridiano que se te asigna aleatoriamente a continuación, utilizando la serie de datos [WorldClim, versión 2]((http://worldclim.org/version2)) (Fick & Hijmans, 2017).
 
         ##                  meridiano
         ## AbigailCP             -125
@@ -112,7 +114,7 @@ Preguntas/mandatos. Responde según las referencias señaladas arriba. En caso d
 
     Tu respuesta, aquí: ...
 
--   Genera un gráfico de precipitación anual continental en un gradiente latitudinal, desde el Polo Sur al Norte, a lo largo del meridiano que se te asignó arriba aleatoriamente y utilizando la serie de datos [WorldClim, versión 2]((http://worldclim.org/version2)) (Fick & Hijmans, 2017).
+-   Genera un gráfico de precipitación anual continental en un gradiente latitudinal, desde el Polo Sur al Norte a lo largo del meridiano que se te asignó arriba aleatoriamente, utilizando la serie de datos [WorldClim, versión 2]((http://worldclim.org/version2)) (Fick & Hijmans, 2017).
 
     Fíjate en el siguiente ejemplo, donde se genera el gradiente pluviométrico latitudinal continental del meridiano -71 grados (longitud negativa, al oeste del meridiano central; si fuese, positiva estaría al este).
 
@@ -126,7 +128,7 @@ Preguntas/mandatos. Responde según las referencias señaladas arriba. En caso d
 
     Tu respuesta, aquí: ...
 
--   Con tus palabras, y en menos de 150 caracteres, ¿qué es sombre de lluvia?
+-   Con tus palabras, y en menos de 150 caracteres, ¿qué es "sombra de lluvia (precipitaciones)"?
 
     Tu respuesta, aquí: ...
 
@@ -161,17 +163,15 @@ Preguntas/mandatos. Responde según las referencias señaladas arriba. En caso d
 
     Tu respuesta, aquí: ...
 
--   Describe dos variaciones irregulares del clima a escala regional
-
-    Tu respuesta, aquí: ...
-
--   Pon dos ejemplos de organismos que conozcas que habiten en condiciones locales y describe en qué consisten dichas condiciones.
+-   Pon dos ejemplos de organismos que conozcas que habiten en condiciones locales y describe dichas condiciones.
 
     Tu respuesta, aquí: ...
 
 -   Describe las características típicas del ambiente urbano.
 
     Tu respuesta, aquí: ...
+
+### Ambiente acuático
 
 -   Con menos de 300 caracteres, describe los principales "trayectos" del movimiento del agua en el "ciclo hidrológico".
 
@@ -201,31 +201,87 @@ Preguntas/mandatos. Responde según las referencias señaladas arriba. En caso d
 
     Tu respuesta, aquí: ...
 
--   ¿Por qué es importante el pH del agua para los organismos? ¿Qué repercursiones tiene en República Dominicana? Para apoyar tus ideas, consulta este mapa, aleja el zoom y examina el país de un vistazo. Puedes usar la herramienta de "información" ![](img/herramienta_i.png) y hacer clic sobre alguna roca para ver su descripción. Las manchas con trama de ladrillo representan calizas; hay otras rocas carbonatadas, además de las calizas. Adicionalmente, lee el resumen de [este artículo](https://www.nature.com/articles/s41598-019-44440-8) y consulta la crítica al respecto.
+-   ¿Por qué es importante el pH del agua para los organismos? ¿Qué repercursiones tiene en República Dominicana? Para apoyar tus ideas, consulta este mapa geológico, aleja el zoom y examina el país de un vistazo. Puedes usar la herramienta de "información" ![](img/herramienta_i.png) y hacer clic sobre alguna roca para ver su descripción. Las manchas con trama de ladrillo representan calizas; hay otras rocas carbonatadas, además de las calizas. Adicionalmente, lee el resumen de [este artículo](https://www.nature.com/articles/s41598-019-44440-8) y consulta la crítica al respecto.
 
     Tu respuesta, aquí: ...
 
--   P
+-   Cita 3 factores que condicionan el movimiento del agua en ríos y arroyos.
 
     Tu respuesta, aquí: ...
 
--   P
+-   El efecto Coriolis influye en los afloramientos de aguas marinas profundas. Describe cómo se produce este fenómeno.
 
     Tu respuesta, aquí: ...
 
--   P
+-   Explica el fenómenos de las mareas.
 
     Tu respuesta, aquí: ...
 
--   P
+### Ambiente terrestre
+
+-   En los ambientes terrestres, desecación y gravedad ejercen mucha influencia sobre los organismos. Lee al respecto y menciona las consecuencias más importantes en menos 200 caracteres.
 
     Tu respuesta, aquí: ...
 
--   P
+-   Cita un factor de gran variabilidad en los ambientes terrestres, y explica dicha variabilidad.
 
     Tu respuesta, aquí: ...
 
--   P
+-   Describe el índice de superficie foliar y la ley de Beer.
+
+    Tu respuesta, aquí: ...
+
+-   Verás tres gráficos de relación entre el índice de superficie foliar (ISF) y luz disponible (LD). ¿Qué efecto tiene el coeficiente de extinción de luz (`k`), en atenuación de la LD según ISF? Nota la escala variable del eje `Y`.
+
+    ![](img/beer_ld_isf_k-1.png)
+
+    Tu respuesta, aquí: ...
+
+-   Con menos de 150 caracteres, cita y describe las dos formas de meteorización del suelo. ¿Cuál entiendes que predomina en Los Haitises? ¿Cuál entiendes que predomina en las vertientes que limitan a la Hoya de Enriquillo por el norte y el sur?
+
+    Tu respuesta, aquí: ...
+
+-   Cita los cinco factores que participan en la formación de suelos. Hecho esto, estudia sobre ellos y, a continuación, indica qué efecto tienen en la formación de suelos en los siguientes lugares dominicanos: ciudad de Santo Domingo, Los Haitises, vertientes septentrionales de Azua, vertiente occidental del valle de Bonao (consulta mapas geológicos, de relieve, de vegetación, de temperatura y precipitación)
+
+    Tu respuesta, aquí: ...
+
+-   Describe en menos de 150 caracteres los horizontes del suelo.
+
+    Tu respuesta, aquí: ...
+
+-   Examina la figura 5.9 de T. M. Smith & Smith (2007) y explica cómo de diferentes son el punto de marchitamiento (PM), la capacidad de campo (CC) y la capacidad de agua disponible (CAD).
+
+    Tu respuesta, aquí: ...
+
+-   ¿Por qué en la mayoría de los suelos del mundo templado predomina el intercambio de cationes sobre el de aniones?
+
+    Tu respuesta, aquí: ...
+
+-   En pH ácido, ¿Qué iones intercambiables predominan? ¿Por qué?
+
+    Tu respuesta, aquí: ...
+
+-   De cada suelo de la página 100 de T. M. Smith & Smith (2007), cita dos rasgos relevantes.
+
+    Tu respuesta, aquí: ...
+
+### Preguntas sobre tectónica de placas
+
+-   "Deriva de los continentes", "expansión del fondo oceánico", "tectónica de placas". Estudia al respecto en el capítulo 2 de Tarbuck & Lutgens (2005) (el resumen final puede servirte) para comprender el contenido y la vigencia de estas hipótesis/teorías.
+
+    Tu respuesta, aquí: ...
+
+Aparte del encaje de los continentes, Wegener utilizó otras evidencias. Consulta Tarbuck & Lutgens (2005), páginas 36 a 39 para resolver los tres mandatos siguientes.
+
+-   Cita y describe una evidencia paleontológica usada por Wegener para justificar la existencia de Pangea
+
+    Tu respuesta, aquí: ...
+
+-   Cita y describe una evidencia estructural usada por Wegener para justificar la existencia de Pangea
+
+    Tu respuesta, aquí: ...
+
+-   Cita y describe una evidencia paleoclimática usada por Wegener para justificar la existencia de Pangea
 
     Tu respuesta, aquí: ...
 
@@ -237,3 +293,5 @@ Fick, S. E., & Hijmans, R. J. (2017). WorldClim 2: New 1-km spatial resolution c
 Lomolino, M. V., Riddle, B. R., Brown, J. H., & Brown, J. H. (2006). *Biogeography*. Sinauer Associates Sunderland, MA.
 
 Smith, T. M., & Smith, R. L. (2007). *Ecología*. Pearson Educación.
+
+Tarbuck, E. J., & Lutgens, F. K. (2005). *Ciencias de la tierra*. 736.

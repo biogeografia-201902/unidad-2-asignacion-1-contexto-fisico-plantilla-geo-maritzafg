@@ -31,6 +31,6 @@ RDp <- function(transectorandom,
              hjust = 1, vjust = 0, x = max(dist), y = rmin) +
     ylab('Precipitación anual (en mm)') +
     xlab('Distancia (en km)')
-  plot(r, col = rev(topo.colors(255)));plot(transectosel, lwd = 3, add = T)
-  print(p)
+    plot(r, col = rev(topo.colors(255)));plot(transectosel, lwd = 3, add = T)
+    print(p)
 }

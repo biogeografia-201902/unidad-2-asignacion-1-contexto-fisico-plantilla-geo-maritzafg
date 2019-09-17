@@ -84,7 +84,7 @@ Preguntas/mandatos. Responde según las referencias señaladas arriba. En caso d
 
     ![](img/grad_lat_temp-1.png)
 
-    Ahora cambia el meridiano -71 por el tuyo e **interpreta el resultado** (cómo y por qué cambia la temperatura respecto de la latitud, por qué hay cambios bruscos en el gradiente, por qué hay vacíos de información):
+    Ahora cambia el meridiano -71 por el tuyo, ejecuta la línea de código en la consola, observa la salida e **interpreta el resultado** (cómo y por qué cambia la temperatura respecto de la latitud, por qué hay cambios bruscos en el gradiente, por qué hay vacíos de información):
 
     Tu respuesta, aquí: ...
 
@@ -122,7 +122,7 @@ Preguntas/mandatos. Responde según las referencias señaladas arriba. En caso d
 
     ![](img/grad_lat_prec-1.png)
 
-    Ahora cambia el meridiano -71 por el tuyo e **interpreta el resultado** (cómo y por qué cambia la precipitación respecto de la latitud, por qué hay cambios bruscos en el gradiente, por qué hay vacíos de información):
+    Ahora cambia el meridiano -71 por el tuyo, ejecuta la línea de código en la consola, observa la salida e **interpreta el resultado** (cómo y por qué cambia la precipitación respecto de la latitud, por qué hay cambios bruscos en el gradiente, por qué hay vacíos de información):
 
     Tu respuesta, aquí: ...
 
@@ -153,7 +153,7 @@ Preguntas/mandatos. Responde según las referencias señaladas arriba. En caso d
 
     ![](img/trans_rd_prec-1.png)![](img/trans_rd_prec-2.png)
 
-    Ahora cambia el transecto `1` por el tuyo e **interpreta el resultado** (cómo y por qué cambia la preciptiación respecto del relieve dominicano, por qué hay lugares con menor precipitación que otros, qué factores influyen):
+    Ahora cambia el transecto `1` por el tuyo, teje tu RMarkdown (`CTRL+SHIFT+K`), observa la salida e **interpreta el resultado** (cómo y por qué cambia la precipitación a lo largo del transecto, por qué hay lugares con menor/mayor precipitación que otros, qué factores influyen):
 
     Tu respuesta, aquí: ...
 
@@ -173,7 +173,7 @@ Preguntas/mandatos. Responde según las referencias señaladas arriba. En caso d
 
     Tu respuesta, aquí: ...
 
--   En menos de 300 caracteres, describe los principales "trayectos" más importantes del movimiento del agua en el "ciclo hidrológico".
+-   Con menos de 300 caracteres, describe los principales "trayectos" del movimiento del agua en el "ciclo hidrológico".
 
     Tu respuesta, aquí: ...
 
@@ -181,27 +181,27 @@ Preguntas/mandatos. Responde según las referencias señaladas arriba. En caso d
 
     Tu respuesta, aquí: ...
 
--   ¿Qué intensidad relativa aproximada del rojo queda a 20 metros de profundidad en agua pura? ¿Y de azul a 100 metros?
+-   ¿A qué profundidad en agua pura la intensidad relativa aproximada del rojo es máxima? ¿Y de azul?
 
     Tu respuesta, aquí: ...
 
--   P
+-   La termoclina es una región que separa dos capas teóricas del perfil vertical de profundidad de masas de agua. Nómbralas y descríbelas.
 
     Tu respuesta, aquí: ...
 
--   P
+-   Considera la termoclina de un lago estacional (preferiblemente, de latitud subtropical): ¿En qué estación es más marcada y profunda? ¿Cuándo es más somera? ¿Cuándo se atenúa?
 
     Tu respuesta, aquí: ...
 
--   P
+-   ¿Cuáles son los principales elementos presentes en el agua de mar (forman el 99% de la sal marina)? ¿Cuáles son los dos dominantes? ¿A qué equivale una unidad práctica (funcional) de salinidad? Escribe la salinidad del mar abierto y del agua dulce en ‰
 
     Tu respuesta, aquí: ...
 
--   P
+-   ¿Cuáles son los factores que controlan la difusión de oxígeno en el agua? Describe el perfil típico del oxígeno en el océano.
 
     Tu respuesta, aquí: ...
 
--   P
+-   ¿Por qué es importante el pH del agua para los organismos? ¿Qué repercursiones tiene en República Dominicana? Para apoyar tus ideas, consulta este mapa, aleja el zoom y examina el país de un vistazo. Puedes usar la herramienta de "información" ![](img/herramienta_i.png) y hacer clic sobre alguna roca para ver su descripción. Las manchas con trama de ladrillo representan calizas; hay otras rocas carbonatadas, además de las calizas. Adicionalmente, lee el resumen de [este artículo](https://www.nature.com/articles/s41598-019-44440-8) y consulta la crítica al respecto.
 
     Tu respuesta, aquí: ...
 

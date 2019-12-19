@@ -27,18 +27,16 @@ Tus referencias serán los capítulos 3 a 5 de @smith2007ecologia y el capítulo
 
 * ¿Cuáles son las principales variables climáticas que determinan la distribución de la vegetación terrestre?
 
-    Tu respuesta, aquí:
-    Las temperaturas y las precipitaciones
+**Las temperaturas y las precipitaciones**
 
 * Si 100 unidades de radiación solar alcanzan el tope de la atmósfera, ¿Por qué el planeta emite 147 unidades?
 
-    Tu respuesta, aquí:
-    Por cada 100 unidad de energía que llega a la tierra 51 llegan a la tierra, las otras 49 unidades son reflejadas por la atmosfera, y de esas 51 solo 30 se convierten en calor latente, pero la tierra también emite energía (de onda larga), logrando sumar unas 117 unidades debido a que la tierra estaba caliente previamente, así mismo de esas 117 unidades 111 crean el efecto invernadero u las otras 6 van al espacio.
+
+**Por cada 100 unidad de energía que llega a la tierra 51 llegan a la tierra, las otras 49 unidades son reflejadas por la atmosfera, y de esas 51 solo 30 se convierten en calor latente, pero la tierra también emite energía (de onda larga), logrando sumar unas 117 unidades debido a que la tierra estaba caliente previamente, así mismo de esas 117 unidades 111 crean el efecto invernadero u las otras 6 van al espacio.**
     
 * En cuanto a emisividad, la Tierra y el Sol se comportan como cuerpos negros, ¿Por qué?
 
-    Tu respuesta, aquí: 
-    Porque emiten una cantidad máxima de radicación 
+**Porque emiten una cantidad máxima de radicación**
     
 * Cada quien tiene asignado un valor de temperatura de cuerpo negro en grados Kelvin. Usa el recuadro "Cuantificando la ecología 3.1" de @smith2007ecologia. ¿Cuánta energía radiante emite el cuerpo?
 
@@ -46,7 +44,10 @@ Tus referencias serán los capítulos 3 a 5 de @smith2007ecologia y el capítulo
     source('src/temp_aleatorias.R')
     ```
 
-    Tu respuesta, aquí: ...
+```{r}
+5.67*10e-8*4373^4
+```
+
     
 * Usando el mismo recuadro y el mismo valor de temperatura, ¿En qué longitud de onda emite dicho cuerpo más radiación electromagnética?
     
@@ -54,23 +55,21 @@ Tus referencias serán los capítulos 3 a 5 de @smith2007ecologia y el capítulo
 
 * ¿En dos palabras, que es la PAR?
 
-    Tu respuesta, aquí: ...
+**Radiación fotosintética**
 
 * Define el espectro electromagnético, pero con tus propias palabras.
 
-    Tu respuesta, aquí:
-    El espectro electromagnético es la degradación de la luz del sol o luz blanca, las cuales se convierten en ondas. Dentro de este espectro se encuentran las ondas visibles que son las ondas que podemos ver como los colores, también están los infrarrojos, gammas, x entre otros.
+**El espectro electromagnético es la degradación de la luz del sol o luz blanca, las cuales se convierten en ondas. Dentro de este espectro se encuentran las ondas visibles que son las ondas que podemos ver como los colores, también están los infrarrojos, gammas, x entre otros.**
 
 * Explica, con tus palabras, en 200 caracteres o menos, el mecanismo por el cual varía la radiación solar que llega a la superficie de la Tierra en las diferentes latitudes.
 
-    Tu respuesta, aquí:
-    La radiación solar que llega a la tierra es homogénea, sin embargo las variaciones de la latitud hacen que exista una diferencia entre latitudes inferiores (más cerca del ecuador) y latitudes superiores (mas cercas de los polos), esto sucede que debido a la forma de esferoide de la tierra los rayos del sol en los polos deban de cubrir mayor zonas de atmosfera y por consiguiente se da el resultado de que los polos son más templados que el ecuador.
+**La radiación solar que llega a la tierra es homogénea, sin embargo las variaciones de la latitud hacen que exista una diferencia entre latitudes inferiores (más cerca del ecuador) y latitudes superiores (mas cercas de los polos), esto sucede que debido a la forma de esferoide de la tierra los rayos del sol en los polos deban de cubrir mayor zonas de atmosfera y por consiguiente se da el resultado de que los polos son más templados que el ecuador.**
     
 * Explica, con tus palabras y en 200 caracteres o menos, ¿Por qué la radiación solar interceptada varía según las estaciones?
 
-    Tu respuesta, aquí:
-    La variación según las estaciones del año se da debido a uno de los movimientos de la tierra que es el movimiento de inclinación, este movimiento en si provoca las estaciones del año, haciendo que los rayos del sol llegue a partir del 21 de diciembre (solsticio de verano en el hemisferio sur) más directo que en el hemisferio norte, el cual en dicha fecha estaría en el solsticio de invierno, sin embargo el área intertropical o zona ecuatorial la variación de radiación solar ciertamente tiene sus picos y caídas no son tan abruptos como en las franjas sobre el trópico de cáncer y debajo del trópico de capricornio.
-A manera jocosa mientras en estados unidos navidad llega con nieve, un santa Claus gordo y montado en renos, en argentina para la misma navidad papa Noel estará en forma, con franela o sin ella y en vez de renos supongo que el trineo estará guiado por caballos.
+**La variación según las estaciones del año se da debido a uno de los movimientos de la tierra que es el movimiento de inclinación, este movimiento en si provoca las estaciones del año, haciendo que los rayos del sol llegue a partir del 21 de diciembre (solsticio de verano en el hemisferio sur) más directo que en el hemisferio norte, el cual en dicha fecha estaría en el solsticio de invierno, sin embargo el área intertropical o zona ecuatorial la variación de radiación solar ciertamente tiene sus picos y caídas no son tan abruptos como en las franjas sobre el trópico de cáncer y debajo del trópico de capricornio.**
+
+**A manera jocosa mientras en estados unidos navidad llega con nieve, un santa Claus gordo y montado en renos, en argentina para la misma navidad papa Noel estará en forma, con franela o sin ella y en vez de renos supongo que el trineo estará guiado por caballos.**
 
 
 * Genera un gráfico de temperatura promedio anual continental en un gradiente latitudinal, desde el Polo Sur al Norte a lo largo del meridiano que se te asigna aleatoriamente a continuación, utilizando la serie de datos [WorldClim, versión 2]((http://worldclim.org/version2)) [@fick2017worldclim].
@@ -83,46 +82,45 @@ A manera jocosa mientras en estados unidos navidad llega con nieve, un santa Cla
     Fíjate en el siguiente ejemplo, donde se genera el gradiente térmico latitudinal continental del meridiano -71 grados (longitud negativa al oeste del meridiano central; si fuese, positiva estaría al este).
     
     ```{r grad_lat_temp, warning = F, message = F}
-    NSt(-71)
+    NSt(82)
     ```
 
     Ahora cambia el meridiano -71 por el tuyo, ejecuta la línea de código en la consola, observa la salida e **interpreta el resultado** (cómo y por qué cambia la temperatura respecto de la latitud, por qué hay cambios bruscos en el gradiente, por qué hay vacíos de información):
     
-    Tu respuesta, aquí: ...
+**El cambio de la temperatura respecto a la latitud se debe a que en los polos la energía recibida desde el sol es mucho menor por la forma achatada de los polos, asi mimo porque en los polos se concentra mayor capas de gases como el neón, argón y ozono.**
+
+**La temperatura del gradiente varia debido a que a mayor altitud menor temperatura, este cambio se da de 1ºc por cada 100m que se asciende.**
+
 
 * ¿Por qué disminuye la temperatura del aire con la altitud?
 
-    Tu respuesta, aquí:
-    Debido a que no solo los rayos del sol que entran por la atmosfera calientan el planeta, también está el calor interno emanado desde el núcleo terrestre.
+**Debido a que no solo los rayos del sol que entran por la atmosfera calientan el planeta, también está el calor interno emanado desde el núcleo terrestre.**
 
 * ¿Qué produce el efecto Coriolis sobre la circulación de las masas de aire?
 
-    Tu respuesta, aquí:
-    Impide la circulación directa de aire desde el ecuador hacia los polos sur y norte, sin embargo también produce unas series de frentes de vientos dominantes, que reciben su nombre dependiendo de la dirección en la cual provengan.
-El efecto coriolis aumenta proporcionalmente hacia los polos, haciendo que los vientos en el polo norte se mueva en dirección de las agujas del reloj y en el polo sur en dirección opuestas a las agujas del reloj, sin embargo en el caso del ecuador este efecto no se produce ya que la velocidad de los vientos es constante.
+**Impide la circulación directa de aire desde el ecuador hacia los polos sur y norte, sin embargo también produce unas series de frentes de vientos dominantes, que reciben su nombre dependiendo de la dirección en la cual provengan.**
+
+**El efecto coriolis aumenta proporcionalmente hacia los polos, haciendo que los vientos en el polo norte se mueva en dirección de las agujas del reloj y en el polo sur en dirección opuestas a las agujas del reloj, sin embargo en el caso del ecuador este efecto no se produce ya que la velocidad de los vientos es constante.**
 
     
 * Describe las "células", frentes y depresiones de las masas de aire (circulación general atmosférica), qué efectos tienen sobre las corrientes, y explica por qué los alisios soplan desde el Este.
 
-    Tu respuesta, aquí:
-    Célula polar: la célula polar es un conjunto de vientos que provienen desde el este, en contraposición a la célula Ferrer donde los vientos provienen desde el oeste, también existe otra célula la de Harley, la cual es producidas por los vientos alisios del noreste.
-Al igual que la célula de Harley , la depresión ecuatorial proviene de los vientos alisios, que en este caso es del sudeste. Y por último encontramos al frente subtropical de altas presiones el cual funciona gracias a los vientos del oeste y los vientos polares del este.
+**Célula polar: la célula polar es un conjunto de vientos que provienen desde el este, en contraposición a la célula Ferrer donde los vientos provienen desde el oeste, también existe otra célula la de Harley, la cual es producidas por los vientos alisios del noreste.**
+
+**Al igual que la célula de Harley , la depresión ecuatorial proviene de los vientos alisios, que en este caso es del sudeste. Y por último encontramos al frente subtropical de altas presiones el cual funciona gracias a los vientos del oeste y los vientos polares del este.**
 
 
 * ¿Qué es la humedad relativa? Opina también cómo ésta podría afectar a la distribución de especies.
 
-    Tu respuesta, aquí:
-    Es la presión de vapor de agua en el aire expresada como un porcentaje de la presión de vapor de saturación 
+**Es la presión de vapor de agua en el aire expresada como un porcentaje de la presión de vapor de saturación **
     
 * Explica por qué se registran precipitaciones tan elevadas en la ZCIT.
 
-    Tu respuesta, aquí:
-    Cerca del Ecuador, los vientos alisios del noreste se encuentran con los vientos alisios del sudeste.  En el punto en que se encuentran las dos masas de aire, el aire se acumula, y el aire caliente húmedo se eleva y se enfría. Cuando se llega a la temperatura de punto de rocío, se forman nubes, y caen precipitaciones en forma de lluvia.
+**Cerca del Ecuador, los vientos alisios del noreste se encuentran con los vientos alisios del sudeste.  En el punto en que se encuentran las dos masas de aire, el aire se acumula, y el aire caliente húmedo se eleva y se enfría. Cuando se llega a la temperatura de punto de rocío, se forman nubes, y caen precipitaciones en forma de lluvia.**
 
 * ¿Qué ocurre en torno a la latitud 30° (Norte y Sur) que provoca una disminución relativa de las precipitaciones?
 
-    Tu respuesta, aquí:
-
+**Sucede a  partir de los 30º el aire se enfría y pierde humedad, por tanto la precipitación se disminuye**
 
 * Genera un gráfico de precipitación anual continental en un gradiente latitudinal, desde el Polo Sur al Norte a lo largo del meridiano que se te asignó arriba aleatoriamente, utilizando la serie de datos [WorldClim, versión 2]((http://worldclim.org/version2)) [@fick2017worldclim].
     
@@ -133,17 +131,17 @@ Al igual que la célula de Harley , la depresión ecuatorial proviene de los vie
     Fíjate en el siguiente ejemplo, donde se genera el gradiente pluviométrico latitudinal continental del meridiano -71 grados (longitud negativa, al oeste del meridiano central; si fuese, positiva estaría al este).
     
     ```{r grad_lat_prec, warning = F, message = F}
-    NSp(-71)
+    NSp(82)
     ```
 
     Ahora cambia el meridiano -71 por el tuyo, ejecuta la línea de código en la consola, observa la salida e **interpreta el resultado** (cómo y por qué cambia la precipitación respecto de la latitud, por qué hay cambios bruscos en el gradiente, por qué hay vacíos de información):
 
-    Tu respuesta, aquí: ...
+**La principal razón por la cual la latitud afecta las precipitaciones es debido a que mayor lalitud exista habrá mas frio y por tranto el requisito fundamentar para que se produzca la lluvia que es el encuentro de las masas de aire frio y caliente no se dá con gran variabilidad.**
     
 * Con tus palabras, y en menos de 150 caracteres, ¿qué es "sombra de lluvia (precipitaciones)"?
 
-    Tu respuesta, aquí:
-      Es cuando las masas de aire chocan con grandes cadenas montañosas y suben provocando que se produzcan grandes lluvias, en nuestro país se da mucho en la zona de Samaná cuando los vientos alisios chocan con las estribaciones este de la sierra septentrional.
+
+**Es cuando las masas de aire chocan con grandes cadenas montañosas y suben provocando que se produzcan grandes lluvias, en nuestro país se da mucho en la zona de Samaná cuando los vientos alisios chocan con las estribaciones este de la sierra septentrional.**
 
 * Genera un gráfico de precipitación anual de RD a lo largo de un transecto Norte-Sur elegido para ti, utilizando la serie de datos [WorldClim, versión 2]((http://worldclim.org/version2)) [@fick2017worldclim].
 
@@ -155,108 +153,114 @@ Al igual que la célula de Harley , la depresión ecuatorial proviene de los vie
     Fíjate en el siguiente ejemplo, donde se genera un transecto de precipitación Norte-Sur para el transecto `1`.
     
     ```{r trans_rd_prec, warning = F, message = F}
-    RDp(1)
+    RDp(146)
     ```
 
     Ahora cambia el transecto `1` por el tuyo, teje tu RMarkdown (`CTRL+SHIFT+K`), observa la salida e **interpreta el resultado** (cómo y por qué cambia la precipitación a lo largo del transecto, por qué hay lugares con menor/mayor precipitación que otros, qué factores influyen):
     
-    Tu respuesta, aquí: ...
+**A lo largo del transecto indicado la precipitación varía debido a factores predominantemente orograficos, en la parte sur ubicada en la llanura sur oriental del caribe con bajas precipitaciones hasta la sierra septentrional y oriental con mas elevadas.**
+
+**En el caso del norte se puede deber a los choques de los vientos alisios que al encontrarse con las elevaciones de la sierra septentrional y oriental desencadana grandes precipitaciones, también es importe mensionar que en este caso la parte norte se ubica en el parque nacional los haitises que es la zona de mayor precipitación en el país.**
 
 * Describe dos variaciones irregulares del clima a escala regional
 
-    Tu respuesta, aquí:
+**El cambio climático: es un proceso originado por los gases del efecto invernadero y la gran contaminación provocada por el hombre, el cambio climático provoca un aumento en las temperaturas en general, desencadenando consigo un conjunto de procesos negativos como el derretimiento de los casquetes polares, aumentando asi el nivel medio del mar, también provoca sequias más fuertes e inundaciones torrenciales. **
+
+**El Niño: el niño es un fenómeno climático que se produce periódicamente, debido al calentamiento de la parte ecuatorial del pacifico provocando consigo lluvias de gran impacto.**
+
     
-
-
 * Pon dos ejemplos de organismos que conozcas que habiten en condiciones locales y describe dichas condiciones.
 
-    Tu respuesta, aquí: ...
+**Los perros y gatos, aunque su característica  ambiental es más generalizada, debido a que son especies cosmopolitas junto al ser humano.**
 
 * Describe las características típicas del ambiente urbano.
 
-    Tu respuesta, aquí: ...
+**Altas temperaturas provocadas por la escases de agua y árboles, así como poco o nulo aire, perdida de gran parte de las aguas de lluvia a través de la tubería, etc.**
 
 ### Ambiente acuático
     
 * Con menos de 300 caracteres, describe los principales "trayectos" del movimiento del agua en el "ciclo hidrológico".
 
-    Tu respuesta, aquí: 
-    En el ciclo hidrológico el agua circula de forma constante en toda la tierra, sin embargo existen 4 fases las cuales acciones normalmente antrópicas pueden afectar y producir más agua en una que en las otras.
+**En el ciclo hidrológico el agua circula de forma constante en toda la tierra, sin embargo existen 4 fases las cuales acciones normalmente antrópicas pueden afectar y producir más agua en una que en las otras.**
 
-Como es un ciclo no existe fase primaria ni muchos menos, pero normalmente se suele comenzar con la evaporación, la evaporación es el proceso en el cual el agua se evapora (valga la redundancia) por los efectos del sol y del calor interno de la tierra, tanto las aguas de los océanos, mares y ríos, como las aguas en charcos y pozos se evaporan, adicionalmente a este proceso también está la evapotranspiración en la cual las formas de vida liberan agua. Ese vapor de agua llega a la atmosfera el con el paso del tiempo y de condiciones atmosféricas indicadas se convierte en nubes, las nubes están compuestas por pequeñas gotitas de agua pero su peso no es lo suficientemente alto para caer, para que esto suceda las nubes reciben golpes de masas de aire frio y su tamaño se amplia, a este proceso o fase del ciclo hidrológico se le conoce como condensación.
+**Como es un ciclo no existe fase primaria ni muchos menos, pero normalmente se suele comenzar con la evaporación, la evaporación es el proceso en el cual el agua se evapora (valga la redundancia) por los efectos del sol y del calor interno de la tierra, tanto las aguas de los océanos, mares y ríos, como las aguas en charcos y pozos se evaporan, adicionalmente a este proceso también está la evapotranspiración en la cual las formas de vida liberan agua. Ese vapor de agua llega a la atmosfera el con el paso del tiempo y de condiciones atmosféricas indicadas se convierte en nubes, las nubes están compuestas por pequeñas gotitas de agua pero su peso no es lo suficientemente alto para caer, para que esto suceda las nubes reciben golpes de masas de aire frio y su tamaño se amplia, a este proceso o fase del ciclo hidrológico se le conoce como condensación.**
 
-Una vez las gotas de agua adquieran el tamaño suficiente se procede a la tercera fase que es la precipitación, esta precipitación se da por la gravedad. La última fase es la escorrentía, es cuando las aguas precipitadas se infiltran en la tierra, llegan a los ríos y los mares, una vez suceda este proceso el ciclo vuelve a actuar.
+**Una vez las gotas de agua adquieran el tamaño suficiente se procede a la tercera fase que es la precipitación, esta precipitación se da por la gravedad. La última fase es la escorrentía, es cuando las aguas precipitadas se infiltran en la tierra, llegan a los ríos y los mares, una vez suceda este proceso el ciclo vuelve a actuar.**
     
 * ¿Por qué son importantes la tensión superficial y la viscosidad del agua para determinados organismos?
 
-    Tu respuesta, aquí:
-    La tensión superficial es importante para determinados organismos debido a que según sus características (de los organismos) esta poder ser una barrera que impide que los organismos se puedan mover hacia el fondo o la superficie del agua, otros organismos es una trampa que les impide alimentarse o desovar con normalidad en la superficie.
+**La tensión superficial es importante para determinados organismos debido a que según sus características (de los organismos) esta poder ser una barrera que impide que los organismos se puedan mover hacia el fondo o la superficie del agua, otros organismos es una trampa que les impide alimentarse o desovar con normalidad en la superficie.**
     
 * ¿A qué profundidad en agua pura la intensidad relativa aproximada del rojo es máxima? ¿Y de azul?
 
-    Tu respuesta, aquí:
-    El rojo es máximo en torno a los 10 metros de profundidad, en cambio el azul ronda a los 100 metros.
+**El rojo es máximo en torno a los 10 metros de profundidad, en cambio el azul ronda a los 100 metros.**
 
 * La termoclina es una región que separa dos capas teóricas del perfil vertical de profundidad de masas de agua. Nómbralas y descríbelas.
 
-    Tu respuesta, aquí: ...
-    
+**Epilimnion, una capa superior de agua cálida, más liviana (menos densa) una capa inferior de agua fría más densa llamada hipolimnion**
+
 * Considera la termoclina de un lago estacional (preferiblemente, de latitud subtropical): ¿En qué estación es más marcada y profunda? ¿Cuándo es más somera? ¿Cuándo se atenúa?
 
-    Tu respuesta, aquí:
-    En los veranos la termoclina es más marcada, somera en otoño y atenuada en invierno.
+**En los veranos la termoclina es más marcada, somera en otoño y atenuada en invierno.**
     
 * ¿Cuáles son los principales elementos presentes en el agua de mar (forman el 99% de la sal marina)? ¿Cuáles son los dos dominantes? ¿A qué equivale una unidad práctica (funcional) de salinidad? Escribe la salinidad del mar abierto y del agua dulce en ‰ 
 
-    Tu respuesta, aquí:
-    El agua de mar está compuesta por dos grupos de iones, los cationes que a su vez están compuestos por el sodio, potasio, magnesio, calcio y estroncio; y los aniones como son el cloro, sulfato, bromo, entre otros.
+**El agua de mar está compuesta por dos grupos de iones, los cationes que a su vez están compuestos por el sodio, potasio, magnesio, calcio y estroncio; y los aniones como son el cloro, sulfato, bromo, entre otros.**
 
-Los dos elementos más importantes son el sodio y el cloro.
+**Los dos elementos más importantes son el sodio y el cloro.**
 
     
 * ¿Cuáles son los factores que controlan la difusión de oxígeno en el agua? Describe el perfil típico del oxígeno en el océano.
 
-    Tu respuesta, aquí:
-    Los factores que controlan la difusión del oxígeno son la solubilidad del oxígeno en agua y la pendiente del gradiente de difusión.
+**Los factores que controlan la difusión del oxígeno son la solubilidad del oxígeno en agua y la pendiente del gradiente de difusión.**
 
-Un perfil oceánico de oxígeno típico muestra una cantidad máxima en los 10-20 m superiores, donde la actividad fotosintética y la difusión desde la atmósfera, generalmente, conducen a la saturación. Con el aumento de la profundidad, el contenido de oxígeno disminuye.
+**Un perfil oceánico de oxígeno típico muestra una cantidad máxima en los 10-20 m superiores, donde la actividad fotosintética y la difusión desde la atmósfera, generalmente, conducen a la saturación. Con el aumento de la profundidad, el contenido de oxígeno disminuye.**
 
-    
     
 * ¿Por qué es importante el pH del agua para los organismos? ¿Qué repercursiones tiene en República Dominicana? Para apoyar tus ideas, consulta este mapa geológico, aleja el zoom y examina el país de un vistazo. Puedes usar la herramienta de "información" ![](img/herramienta_i.png) y hacer clic sobre alguna roca para ver su descripción. Las manchas con trama de ladrillo representan calizas; hay otras rocas carbonatadas, además de las calizas. Adicionalmente, lee el resumen de [este artículo](https://www.nature.com/articles/s41598-019-44440-8) y consulta la crítica al respecto.
 
-    Tu respuesta, aquí:
+**La acidez influye sobre la disponibilidad de los nutrientes y limita el ambiente de los organismos sensibles a entornos ácidos.**
     
     
 * Cita 3 factores que condicionan el movimiento del agua en ríos y arroyos.
 
-    Tu respuesta, aquí: ...
-    
+**Oleaje**
+**Corrientes oceánicas**
+**Mareas**
+
+
 * El efecto Coriolis influye en los afloramientos de aguas marinas profundas. Describe cómo se produce este fenómeno.
 
-    Tu respuesta, aquí:
-    Cuando el viento sopla sobre la superficie del mar, la capa de agua superficial tiende a desplazarse en su misma dirección. Con el paso de las horas y debido a la rotación de la Tierra, esta capa superficial sufre una desviación de su trayectoria hacia la derecha en el hemisferio Norte, o bien hacia la izquierda si nos encontramos en el hemisferio Sur a lo que se le conoce como efecto Coriolis.
+**Cuando el viento sopla sobre la superficie del mar, la capa de agua superficial tiende a desplazarse en su misma dirección. Con el paso de las horas y debido a la rotación de la Tierra, esta capa superficial sufre una desviación de su trayectoria hacia la derecha en el hemisferio Norte, o bien hacia la izquierda si nos encontramos en el hemisferio Sur a lo que se le conoce como efecto Coriolis.**
 
-El afloramiento costero en el hemisferio Norte se produce cuando el viento sopla paralelo a la costa, y ésta queda a la izquierda con respecto a su dirección. En ese caso el transporte de la capa superficial de agua es hacia mar abierto, generando en la costa un vacío que induce el ascenso.
+**El afloramiento costero en el hemisferio Norte se produce cuando el viento sopla paralelo a la costa, y ésta queda a la izquierda con respecto a su dirección. En ese caso el transporte de la capa superficial de agua es hacia mar abierto, generando en la costa un vacío que induce el ascenso.**
 
     
 * Explica el fenómenos de las mareas.
 
-    Tu respuesta, aquí: ...
+**Las mareas es un fenómeno originado por un conjunto de fuerzas naturales, la más importantes de estas fuerzas es la centrifuga generada por la luna y el sol, aunque en el caso de la luna es mayor debido a su cercanía con nosotros.**
+
+**Así mismo la gravedad actúa de manera directa sobre estas, es unión de la fuerza centrífuga y gravedad provocan unas elevaciones de más de agua las cuales vuelven a su estado natural por la gravedad.**
 
 ### Ambiente terrestre
     
 * En los ambientes terrestres, desecación y gravedad ejercen mucha influencia sobre los organismos. Lee al respecto y menciona las consecuencias más importantes en menos 200 caracteres.
 
-    Tu respuesta, aquí: ...
-    
+**La desecación es un proceso en el cual los animales terrestres y plantas pierden agua, debido a que la mayor parte de estos organismos terrestres es agua y no estar permanentemente un lugares húmedos la perdida de la misma es brutal, por eso los organismos terrestres han desarrollado diferentes mecanismos  para mantener la mayor cantidad de agua en su estructura. En el caso de las plantas estas  han creado tallos recubiertos por cutículas y poros o también conocido como estomas en sus hojas para no solo limitar la perdida de agua sino también para la difusión de gases como el oxígeno y el dióxido de carbono.**
+
+**En el caso de la gravedad los seres vivos luchan por permanecer erguidos, creando esqueletos o celulosas que no les limite su desarrollo.**
+
+
 * Cita un factor de gran variabilidad en los ambientes terrestres, y explica dicha variabilidad.
 
-    Tu respuesta, aquí: ...
+**El período y la cantidad de precipitaciones que recibe un lugar limitan la disponibilidad de agua en las plantas y animales terrestres y su capacidad para mantener el equilibrio hídrico.**
     
 * Describe el índice de superficie foliar y la ley de Beer.
 
-    Tu respuesta, aquí: ...
+**El índice de superficie foliar es un indicador entre la superficie foliar de las hojas y la superficie de suelo, un cálculo breve es el siguiente: ISF=5 indica que hay 5 m2 por cada m2 de suelo.**
+
+**En cuanto a la ley de Beer se define como la relación entre la luz disponible y el ISF.**
+
     
 * Verás tres gráficos de relación entre el índice de superficie foliar (ISF) y luz disponible (LD). ¿Qué efecto tiene el coeficiente de extinción de luz (`k`), en atenuación de la LD según ISF? Nota la escala variable del eje `Y`.
 
@@ -272,55 +276,87 @@ El afloramiento costero en el hemisferio Norte se produce cuando el viento sopla
     )
     ```
 
-    Tu respuesta, aquí: ...
+**Lo que se puede ver es que a menor sea el coeficiente de extinción de luz mayor superficie foliar se contiene.**
     
 * Con menos de 150 caracteres, cita y describe las dos formas de meteorización del suelo. ¿Cuál entiendes que predomina en Los Haitises? ¿Cuál entiendes que predomina en las vertientes que limitan a la Hoya de Enriquillo por el norte y el sur?
 
-    Tu respuesta, aquí: ...
-    
+**La meteorización mecánica es el proceso en el cual el agua se infiltra entre las las grietas de las rocas y estas al congelarse provocada por el cambio de temperatura se expande y destruyen la roca provocando una transformación del paisaje, asi mismo las partículas de polvo y arena que son transportada por el viento desgastan las superficies de las rocas. En el caso de la meteorización química tiene dos factores el primero es el agua y el oxígeno, el otro factor son los acidos que se producen por las actividades de los organismos en el suelo El agua de lluvia que cae y se filtra en la materia orgánica y el suelo mineral origina una cadena de reacciones químicas que  transforman la composición de las rocas y minerales originales.**
+
+**En el caso de los Haitises la meteorización que se produce es la meteorización química (es importante indicar que el de lluvia es acida y las rocas de dicha zona está compuesta por carbonato de calcio)**
+
+**En cuanto a la parte norte y sur de la hoya de enriquillo se produce la metorizacion mecánica.**
+
+
 * Cita los cinco factores que participan en la formación de suelos. Hecho esto, estudia sobre ellos y, a continuación, indica qué efecto tienen en la formación de suelos en los siguientes lugares dominicanos: ciudad de Santo Domingo, Los Haitises, vertientes septentrionales de Azua, vertiente occidental del valle de Bonao (consulta mapas geológicos, de relieve, de vegetación, de temperatura y precipitación)
 
-    Tu respuesta, aquí: ...
+**Los cincos factores son:**
+
+**Roca madre**
+**Clima**
+**Topografía**
+**Factores bióticos**
+**Tiempo**
+
+**En la ciudad de santo domingo el factor de la topografía ha influenciado mucho en la formación de los suelos, debido a sus bajas pendientes el agua ha podido filtrarse en las rocas acelerando el proceso de meteorización de la roca madre, a contraposición está la vertiente septentrional de azua que debido a sus amplias pendientes reducen el nivel de infiltración, en azua septentrional encontramos gran cantidad de rocas volcánicas debido a la cordillera central, junto con un rico nivel de materia orgánica.**
+
+**En el caso del valle de Bonao también predomina la materia orgánica la cual en combinación con aluviones y lacustren y un clima tropical húmedo de bosques con altas precipitaciones hacen del valle de Bonao un lugar muy fértil.**
+
 
 * Describe en menos de 150 caracteres los horizontes del suelo.
 
-    Tu respuesta, aquí: ...
+**Los suelos están compuestos por capas conocidos también como horizontes, en total son cuatro horizonte, el primero es el horizonte orgánico constituido por grama y toda forma de vida superficial, el horizonte superior del suelo constituido la acumulación de materia orgánica, el horizonte B o subsuelo en donde se concentran los minerales y por el ultimo el horizonte C que es el material no consolidado.**
     
 * Examina la figura 5.9 de @smith2007ecologia y explica cómo de diferentes son el punto de marchitamiento (PM), la capacidad de campo (CC) y la capacidad de agua disponible (CAD).
 
-    Tu respuesta, aquí: ...
+**La disponibilidad del agua es mayor  cuanto menor sea la diferencia entre la capacidad de campo y el punto de marchitamiento, por el contario a mayor sea dicha diferencia menor será el CAD, por tanto los suelos más finos tiene menos saturación de agua que las rocas más gruesas como es el caso de la arena que si existe buen nivel de saturación debido a que existe poca diferencia ente el PM y el CC.**
     
 * ¿Por qué en la mayoría de los suelos del mundo templado predomina el intercambio de cationes sobre el de aniones?
 
-    Tu respuesta, aquí: ...
+**Debido a su gran concentración de arcilla y materia orgánica.**
     
 * En pH ácido, ¿Qué iones intercambiables predominan? ¿Por qué?
 
-    Tu respuesta, aquí: ...
-    
+**Los iones intercambiables que predominan son el aluminio y el hidrogeno, debido a  que están retenidos en los coloides del suelo por fuerzas electrostática.**
+
 * De cada suelo de la página 100 de @smith2007ecologia, cita dos rasgos relevantes.
 
-    Tu respuesta, aquí: ...
+**Entisoles: suelos inmaduros y sedimentos recientemente depositados**
+**Aridisoles: poca materia orgánica, proclives a la salinización**
+**Vertisoles: suelos arcillosos, se humedecen y secan repentinamente**
+**Molisoles: suelos de regiones semihumedas , proclives al proceso de calcificación**
+**Inceptisoles: suelos pocos profundos, desarrollo moderado de los horizontes**
+**Espodosoles: ricos en hierro y aluminios**
+**Alfisoles: poca penetración de humus, horizontes bien desarrollados**
+**Histosoles: ricos en materia orgánica, poco drenaje**
+**Ultisoles: de clima cálidos y húmedos, bajo contenido básico**
+**Andisoles: originado de roca madre volcánica, baja densidad**
+**Oxisoles: altamente meteorizados, ricos en óxido de hierro**
+**Gelisoles: existencia de permafrost, formados por la gleyzación**
+
+
 
 
 ### Preguntas sobre tectónica de placas
 
 * "Deriva de los continentes", "expansión del fondo oceánico", "tectónica de placas". Estudia al respecto en el capítulo 2 de @tarbuck2005ciencias (el resumen final puede servirte) para comprender el contenido y la vigencia de estas hipótesis/teorías.
 
-    Tu respuesta, aquí: ...
 
 Aparte del encaje de los continentes, Wegener utilizó otras evidencias. Consulta @tarbuck2005ciencias, páginas 36 a 39 para resolver los tres mandatos siguientes.
 
+
+
 * Cita y describe una evidencia paleontológica usada por Wegener para justificar la existencia de Pangea
 
-    Tu respuesta, aquí: ...
-    
+
+**Wegener citó también la distribución del helecho fósil Glossopteris como una prueba de la existencia de Pangea. Se sabía que esta planta, caracterizada por sus grandes semillas de difícil distribución, estaba muy dispersa entre África, Australia, India y Sudamérica durante el Paleozoico tardío. Más tarde, se descubrieron también restos fósiles de Glossopteris en la Antártida. Wegener también sabía que esos helechos con semilla y la flora asociada con ellos crecían sólo en un clima subpolar. Por consiguiente, llegó a la conclusión de que cuando las masas de tierra estuvieron unidas se encontraban mucho más cerca del Polo Sur.**
+
+
 * Cita y describe una evidencia estructural usada por Wegener para justificar la existencia de Pangea
 
-    Tu respuesta, aquí: ...
+**Los cinturones montañosos que terminan en la línea de costa, sólo para reaparecer en las masas continentales situadas al otro lado del océano. Por ejemplo, el cinturón montañoso que comprende los Apalaches tiene una orientación noreste en el este de Estados Unidos y desaparece en la costa de Terranova. Montañas de edad y estructuras comparables se encuentran en las Islas Británicas y Escandinavia.**
 
 * Cita y describe una evidencia paleoclimática usada por Wegener para justificar la existencia de Pangea
 
-    Tu respuesta, aquí: ...
+**En concreto,dedujo de depósitos glaciares antiguos que grandes masasde hielo cubrían extensas áreas del hemisferio Sur, a finales del. En el sur de África y en Sudamérica se encontraron capas de sedimentos transportados por los glaciares de la misma edad, así como en India y en Australia. Gran parte de las zonas que contienen pruebas de esta glaciación paleozoica tardía se encuentra en la actualidad en una franja de 30 grados en torno al Ecuador en un clima subtropical o tropical.**
 
 # Referencias
